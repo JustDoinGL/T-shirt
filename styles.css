@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+img
+{
+    width: 200px;
+    height: 250px;
+    
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: pink;
+    font-family: "Roboto";
+}
+
+.produckt
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 240px;
+    height: 340px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    border-radius: 50px;
+}
+
+.produckt .imgebox
+{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.produckt .imgebox img
+{
+    display: block;
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+.detals
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition: 0.5s;
+}
+
+.detals h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%;    
+}
+
+.detals h2 span
+{
+    font-size: 12px;
+    color: #ccc;
+    font-weight: normal;
+}
+
+.detals .price
+{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    font-weight: bold;
+    font-size: 28px;
+    color: pink;
+}
+
+.label
+{
+    display: block;
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ul
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul li
+{   
+    margin: 5px 5px 0;
+    list-style: none;
+    font-size: 16px;
+    font-weight: normal;
+    color: grey;
+    
+}
+
+ul li :first-child
+{
+    margin-left: 0;
+}
+
+ul.color li
+{
+    width: 20px;
+    height: 20px;
+}
+
+ul.color li:nth-child(1)
+{
+    background: yellow;
+}
+
+ul.color li:nth-child(2)
+{
+    background: green;
+}
+
+ul.color li:nth-child(3)
+{
+    background: gray;
+}
+
+ul.color li:nth-child(4)
+{
+    background: wheat;
+}
+
+ul.color li:nth-child(5)
+{
+    background: black;
+}
+
+li:hover
+{
+    cursor: pointer;
+    font-size: larger;
+    color: red;
+    border: solid;
+    transition: 0.6s;
+}
+
+a
+{
+    display: block;
+    color: black;
+    padding: 5px;
+    background: white;
+    list-style: none;
+    margin: 15px 0 0;
+    text-align: center;
+    text-decoration: none;
+    transition: 0,3s;
+    cursor: pointer;
+}
+
+a:hover
+{
+    background: red;
+    border: solid;
+}
+
